@@ -7,9 +7,15 @@ Local polling only — no cloud, no external dependencies.
 
 ## Install
 
-Copy `custom_components/italtecnica_winet/` into your Home Assistant
-`config/custom_components/` directory, restart, then add the integration and
-enter the module's address (e.g. `10.6.2.100`).
+Via HACS: add `https://github.com/filipek92/italtecnica-winet` as a custom
+repository of type *Integration*, install it, and restart Home Assistant.
+
+Manually: copy `custom_components/italtecnica_winet/` into your Home Assistant
+`config/custom_components/` directory and restart.
+
+Then add the integration and enter the module's address (e.g. `10.6.2.100`).
+
+Requires Home Assistant 2024.11 or newer.
 
 ## Entities
 
