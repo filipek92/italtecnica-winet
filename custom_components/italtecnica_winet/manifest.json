@@ -1,0 +1,12 @@
+{
+  "domain": "italtecnica_winet",
+  "name": "Italtecnica WiNet",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/filipek92/italtecnica-winet",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/filipek92/italtecnica-winet/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

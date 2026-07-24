@@ -1,0 +1,65 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Italtecnica WiNet",
+        "description": "Enter the address of the WiNet module attached to the inverter.",
+        "data": {
+          "host": "Host"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the module at that address.",
+      "invalid_device": "The host answered but does not look like a WiNet module."
+    },
+    "abort": {
+      "already_configured": "This module is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "pressure": { "name": "Pressure" },
+      "pressure_setpoint": { "name": "Active set-point" },
+      "current": { "name": "Current" },
+      "max_current": { "name": "Maximum current" },
+      "voltage": { "name": "Voltage" },
+      "frequency": { "name": "Frequency" },
+      "max_frequency": { "name": "Maximum frequency" },
+      "temperature_board": { "name": "Board temperature" },
+      "temperature_igbt": { "name": "IGBT temperature" },
+      "hours_powered": { "name": "Hours powered" },
+      "hours_running": { "name": "Hours running" },
+      "starts": { "name": "Starts" },
+      "active_error": { "name": "Active error" },
+      "rssi": { "name": "WiFi signal" }
+    },
+    "binary_sensor": {
+      "motor_on": { "name": "Motor" },
+      "error": { "name": "Error" },
+      "master": { "name": "Master" },
+      "double_setpoint": { "name": "Second set-point" },
+      "external_enabled": { "name": "External enable" },
+      "external_error": { "name": "External error" },
+      "pilot": { "name": "Pilot pump" },
+      "manual_mode": { "name": "Manual mode" }
+    },
+    "switch": {
+      "run": { "name": "Run" }
+    },
+    "number": {
+      "pressure_setpoint_1": { "name": "Pressure set-point" },
+      "pressure_setpoint_2": { "name": "Pressure set-point 2" }
+    }
+  }
+}

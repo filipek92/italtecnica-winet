@@ -1,0 +1,65 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Italtecnica WiNet",
+        "description": "Zadej adresu modulu WiNet připojeného k invertoru.",
+        "data": {
+          "host": "Adresa"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Modul na této adrese neodpovídá.",
+      "invalid_device": "Adresa odpověděla, ale nevypadá jako modul WiNet."
+    },
+    "abort": {
+      "already_configured": "Tento modul už je nastavený."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Nastavení",
+        "data": {
+          "scan_interval": "Interval dotazování (sekundy)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "pressure": { "name": "Tlak" },
+      "pressure_setpoint": { "name": "Aktivní set-point" },
+      "current": { "name": "Proud" },
+      "max_current": { "name": "Maximální proud" },
+      "voltage": { "name": "Napětí" },
+      "frequency": { "name": "Frekvence" },
+      "max_frequency": { "name": "Maximální frekvence" },
+      "temperature_board": { "name": "Teplota desky" },
+      "temperature_igbt": { "name": "Teplota IGBT" },
+      "hours_powered": { "name": "Hodin pod napětím" },
+      "hours_running": { "name": "Hodin běhu" },
+      "starts": { "name": "Počet startů" },
+      "active_error": { "name": "Aktivní chyba" },
+      "rssi": { "name": "Síla WiFi signálu" }
+    },
+    "binary_sensor": {
+      "motor_on": { "name": "Motor" },
+      "error": { "name": "Chyba" },
+      "master": { "name": "Master" },
+      "double_setpoint": { "name": "Druhý set-point" },
+      "external_enabled": { "name": "Externí povolení" },
+      "external_error": { "name": "Externí chyba" },
+      "pilot": { "name": "Pilotní čerpadlo" },
+      "manual_mode": { "name": "Ruční režim" }
+    },
+    "switch": {
+      "run": { "name": "Chod" }
+    },
+    "number": {
+      "pressure_setpoint_1": { "name": "Set-point tlaku" },
+      "pressure_setpoint_2": { "name": "Set-point tlaku 2" }
+    }
+  }
+}
