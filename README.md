@@ -15,7 +15,7 @@ Manually: copy `custom_components/italtecnica_winet/` into your Home Assistant
 
 Then add the integration and enter the module's address (e.g. `10.6.2.100`).
 
-Requires Home Assistant 2024.11 or newer.
+Requires Home Assistant 2026.7 or newer.
 
 ## Entities
 
