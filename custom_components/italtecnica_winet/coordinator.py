@@ -37,11 +37,11 @@ class WiNetCoordinator(DataUpdateCoordinator[dict[str, Any]]):
         super().__init__(
             hass,
             _LOGGER,
+            config_entry=entry,
             name=f"{DOMAIN} {client.host}",
             update_interval=timedelta(seconds=scan_interval),
         )
         self.client = client
-        self.entry = entry
         self._params: dict[int, int] = {}
         self._params_read_at: float = 0.0
 
