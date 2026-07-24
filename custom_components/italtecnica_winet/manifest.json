@@ -1,7 +1,7 @@
 {
   "domain": "italtecnica_winet",
   "name": "Italtecnica WiNet",
-  "codeowners": [],
+  "codeowners": ["@filipek92"],
   "config_flow": true,
   "documentation": "https://github.com/filipek92/italtecnica-winet",
   "integration_type": "device",
