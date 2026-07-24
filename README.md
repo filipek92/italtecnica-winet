@@ -109,3 +109,7 @@ engineered from its web UI and verified against the device.
 Security note: the module has a PIN, but it only guards the advanced parameters.
 Reading, changing the set-point and stopping the pump all work **unauthenticated**
 over plain HTTP. Keep it on an isolated IoT VLAN.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
